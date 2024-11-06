@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Cabeçalho */
+
+header{
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    flex-wrap: wrap; 
+    background-color: rgba(0, 0, 0, 0.91);
+    font-size: 1.2em;
+}
+
+.logo img{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.menu ul{
+    
+    display: flex;
+    align-items: center;
+    list-style: none;
+       
+}
+
+.menu ul li{
+    margin-left: 30px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: grey;
+}
+
+/* Corpo Index*/
+
+.descricao {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto img{
+    width: 900px;
+    border-radius: 40px;
+}
+
+/* Corpo Formação */
+
+.sumare {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sumare img{
+    width: 250px;
+}
+
+.texto1s h2{
+    font-size: 3em;
+}
+
+.texto1s h3{
+    font-size: 1.5em;
+}
+
+
+
+.unicsul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.unicsul img{
+    width: 250px;
+}
+
+.texto2u h2{
+    font-size: 3em;
+}
+
+.texto2u h3{
+    font-size: 1.5em;
+}
+
+
+
+.impulsiona {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.impulsiona img{
+    width: 250px;
+}
+
+.texto3i h2{
+    font-size: 3em;
+}
+
+.texto3i h3{
+    font-size: 1.5em;
+}
+
+
+
+
+/* Corpo Profissional */
+
+.optiplas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.optiplas img{
+    width: 250px;
+}
+
+.texto1 h2{
+    font-size: 3em;
+}
+
+.texto1 h3{
+    font-size: 1.5em;
+}
+
+
+
+.fame {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fame img{
+    width: 250px;
+}
+
+.texto2 h2{
+    font-size: 3em;
+}
+
+.texto2 h3{
+    font-size: 1.5em;
+}
+
+
+
+.itau {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.itau img{
+    width: 250px;
+}
+
+.texto3 h2{
+    font-size: 3em;
+}
+
+.texto3 h3{
+    font-size: 1.5em;
+}
+
+
+/* Rodapé */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-size: 1em;
+}
+
+.redes img {
+    width: 50px;
+}
